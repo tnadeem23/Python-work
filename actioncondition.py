@@ -1,16 +1,13 @@
 import numpy as np
-
-
 noofacts = input('Enter the number of actions you want to input : ')
 acts = []
-conds = []
+conds = [] mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmbnbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbnb
 ind=[]
 indnew=[]
-for i in range(0,int(noofacts)):
-    opt=input('Enter action no '+str(i+1)+' : ');
-    acts.append(opt)
-for k in range(0,len(acts)):
-    ind.append([])
+# nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn.    opt=input('Enter action no '+str(i+1)+' : ');
+#     acts.append(opt..)
+# for k in range(0,len(acts)):
+    ind.append([]),././,/
 noofconds = input('Enter the number of conditions you want to input : ')
 for i in range(0,int(noofconds)):
     p = input('Enter condition no '+str(i+1)+' : ')
@@ -46,17 +43,7 @@ for i in range(len(ind[0]),n):
             ind[4].append(i)
     else:
         pass
-print("\nAction 1 = Not a triangle")
-print("Action 2 = Scalene triangle")
-print("Action 3 = Isosceles triangle")
-print("Action 4 = Equilateral triangle")
-print("Action 5 = Not a triangle")
-print("\nCondition 1 = a<b+c")
-print("Condition 2 = b<a+c")
-print("Condition 3 = c<a+b")
-print("Condition 4 = a=b")
-print("Condition 5 = a=c")
-print("Condition 6 = b=c\n")
+
 print('\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t'+"Original form")
 for i in range(len(acts)):
     for index in ind[i]:
